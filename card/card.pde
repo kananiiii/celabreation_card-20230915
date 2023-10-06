@@ -13,7 +13,7 @@ void setup() {
   println("Hello World");
   println("Width:"+width, "\t", "Height:"+height);
   println("Display Width: "+displayWidth, "\tDisplay Height: "+displayHeight);
-  //Character Escapes, tab, new
+  //Character Escapes, tab, new  
   //
   //fullScreen();
   size(600, 400);
@@ -43,7 +43,24 @@ void setup() {
   //[fontName] = createFont("[fontSpelling]", [startingFontSize]);
   //Verify the font exists in Processing.Java
   // Tools / Create Font / Find Font / Do not press "OK", known bug
+  // 
+  //DIVs
+  rect(xRectBackground, yRectBackground, widthRectBackground, heightRectBackground);
+  rect(xRectQuit, yRectQuit, widthRectQuit, heightRectQuit);
+  //rect(); //Image, foreground, near the top
+  //rect(); //Copy and Paste this for all rect()s
   //
+  //DIVs
+  rect(xRectBackground, yRectBackground, widthRectBackground, heightRectBackground);
+  rect(xRectQuit, yRectQuit, widthRectQuit, heightRectQuit);
+  //rect(); //Image, foreground, near the top
+  //rect(); //Copy and Paste this for all rect()s
+  //
+  //DIVs
+  rect(xRectBackground, yRectBackground, widthRectBackground, heightRectBackground);
+  rect(xRectQuit, yRectQuit, widthRectQuit, heightRectQuit);
+  //rect(); //Image, foreground, near the top
+  //rect(); //Copy and Paste this for all rect()s
 } //End setup
 //
 void draw() {
